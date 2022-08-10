@@ -20,6 +20,7 @@ body {
 .myNavBar
 {
   height: 50px;
+  border-bottom: 1px solid silver;
 }
 
 .pageNav
@@ -75,16 +76,100 @@ body {
 
 .zoomSelectList
 {
-
+  background-color: white;
+  border: 1px solid gray;
+  width: 70px;
+  border-top:0;
 }
 
-.zoomSelectDropDown
+.zoomSelectList ul
 {
-  margin-left: -13px;
-  font-size: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; margin-left:3px; font-size: 13px;
 }
 
-.item i 
+.zoomSelectList ul li
 {
-  padding-left: 15px;
+  cursor: default;
+}
+
+#zoomSelectDropDownArrow
+{
+  margin-left:-17px;
+}
+
+#zoomSelectDropDownBlock
+{
+  display: none;
+}
+
+.questionsSelectList
+{
+  background-color: white;
+  border: 1px solid gray;
+  width: 200px;
+}
+
+.questionsSelectList ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 5px;
+  margin:3px; 
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.questionsSelectList ul li:hover
+{
+  background-color: silver;
+}
+
+.speech-bubble 
+{
+	position: relative;
+	background: white;
+	border-radius: .4em;
+  margin-left: 0;/*-155px;*/
+  margin-top: 10px;
+  border: 1px solid dimgray;
+}
+
+.speech-bubble:after 
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 5px;
+	height: 5px;
+	border: 10px solid transparent;
+	border-bottom-color: black;
+	border-top: 0;
+	margin-left: 50px;
+	margin-top: -10px;
+}
+
+.rightBar
+{
+  width: 350px;
+  height: 1000px;
+  float: right;
+}
+
+.rightBarBody
+{
+  width: 350px;
+  height: 100%;
+  border-left: 1px solid silver;
+}
+
+.rightBarNav
+{
+  width: 50px;
+  height: 100%;
+  float: right;
+  border-left: 1px solid silver;
 }
