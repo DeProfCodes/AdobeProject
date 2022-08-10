@@ -1,0 +1,90 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.myNavBar
+{
+  height: 50px;
+}
+
+.pageNav
+{
+  margin: 12px;
+  color:  #6E6E6E;
+  margin-left: 14px;
+  font-family: "sans-serif", sans-serif;
+}
+
+.backNav
+{
+  text-decoration: none;
+  color:  #4B4B4B;
+  margin-left: 2px;
+  font-size: 12px;
+}
+
+.backNav a:hover
+{
+  color: #4B4B4B;
+  text-decoration: underline;
+}
+
+.currentPageNav
+{
+  font-size: 12px;
+  color: #4B4B4B;
+}
+
+.boxico
+{
+  margin-top: -2px;
+}
+
+.pageBody
+{
+  background: 	#F5F5F5;
+}
+
+.rightNav
+{
+  margin: 12px;
+}
+
+.zoomInput
+{
+  all: unset;
+  border-bottom: 1px solid;
+  font-size: 12px;
+  width: 70px;
+}
+
+.zoomSelectList
+{
+
+}
+
+.zoomSelectDropDown
+{
+  margin-left: -13px;
+  font-size: 10px;
+}
+
+.item i 
+{
+  padding-left: 15px;
+}
