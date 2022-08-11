@@ -13,8 +13,10 @@ html {
   min-height: 100%;
 }
 
-body {
+body 
+{
   margin-bottom: 60px;
+  overflow: hidden;
 }
 
 .myNavBar
@@ -163,7 +165,7 @@ body {
 {
   width: 350px;
   height: 100%;
-  border-left: 1px solid silver;
+  border-left: 2px solid silver;
 }
 
 .rightBarNav
@@ -172,4 +174,143 @@ body {
   height: 100%;
   float: right;
   border-left: 1px solid silver;
+  background-color: whitesmoke;
+}
+
+.commentsIcon
+{
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.commentsCount
+{
+  font-size:9px; 
+  margin-top:-35px; 
+  margin-left:20px; 
+  background-color:gray; 
+  color: white; 
+  border-radius: 50%; 
+  text-align: center; 
+  width: 15px;
+  height: 15px;
+  z-index:1; 
+  position: absolute
+}
+
+.activeRightBarNav
+{
+  background-color: silver;
+  padding: 7px;
+  border-radius: 7px;
+}
+
+.codeIcon
+{
+  margin-left:8px; 
+  margin-top:15px;
+}
+
+.codeIcon div:hover
+{
+  background-color:silver; 
+  border-radius: 5px; /*
+  width:25px; 
+  height:25px;*/
+}
+
+.bracesIcon
+{
+  margin-top: 15px;
+}
+
+.rightBarBarMainBody
+{
+  overflow-y: auto;
+  max-height: 89.5vh;
+}
+
+.commentBox
+{
+  margin-left:20px; 
+  margin-top:30px; 
+  width: 250px; 
+  height: 40px; 
+  border: 1px solid silver; 
+  border-radius: 6px;
+}
+
+.commentBtns
+{
+  margin-left: 135px;
+  margin-top:10px;
+}
+
+#commentSubmitBtn
+{
+  border-radius: 30px; 
+  font-size: 13px; 
+  color: gray; 
+  background-color:silver; 
+  border:0;
+}
+
+#commentCancelBtn
+{
+  color: gray; 
+  font-size:13px;
+}
+
+.commentPreviewBox
+{
+  margin-left: 20px;
+}
+
+.commentTitle
+{
+  font-size: 13px;
+}
+
+.commentPerson
+{
+  margin-left:10px;
+}
+
+#userIconImg
+{
+  height: 30px; 
+  width:30px; 
+  border-radius: 50%;
+}
+
+.usersDetails
+{
+  margin-left:40px; 
+  margin-top:-30px;
+}
+
+.userNames
+{
+  font-size:13px; 
+  color:dimgray;
+}
+
+.commentText
+{
+  margin-left:10px; 
+  margin-top:-10px; 
+  font-size:13px;
+}
+
+.commentReply
+{
+  margin-left:10px; 
+  margin-top:-5px; 
+  color:dimgray;
+  font-size: 13px;
+}
+
+.rightBarBodyFooter
+{
+  border-top: 1px solid silver;
 }
