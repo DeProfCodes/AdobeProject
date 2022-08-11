@@ -276,6 +276,12 @@ body
   border-bottom: 1px solid silver;
 }
 
+.commentPreviewBox:hover
+{
+  background-color: lightgray;
+  cursor: pointer;
+}
+
 .commentPreviewBoxActive
 {
   border-left: 5px solid deepskyblue; 
@@ -446,21 +452,49 @@ input:checked + .slider:before
   position: fixed;
   padding: 10px 10px 0px 10px;
   bottom: 0;
-  width: 79.2%;
   height: 100px;
   background: whitesmoke;
 }
 
 .mainPageBody
 {
-  width:70%;
   overflow-y: auto;
   max-height: 89.5vh;
   height:84vh; 
 }
 
+.mainBodyWidth
+{
+  width:1500px; 
+}
+
 .displayImage
 {
-  width:100%; 
+  width:auto; 
   height:100%;
+  background-image: url("../images/testImg_dashbord.PNG");
+}
+
+@media (max-width: 1900px) 
+{
+  .mainBodyWidth
+  {
+    width: 1300px;
+  }
+}
+
+@media (max-width: 1700px) 
+{
+  .mainBodyWidth
+  {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1500px) 
+{
+  .mainBodyWidth 
+  { 
+    width: 800px; 
+  }
 }

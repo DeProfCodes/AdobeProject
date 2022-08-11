@@ -32,3 +32,21 @@ zoomSelectList.addEventListener('click', function (e)
     document.getElementById("zoomSelectDropDownBlock").style.display = "none";
   }
 });
+
+var selectedComment = document.getElementById('commentsLitsId'); 
+
+selectedComment.addEventListener('click', function (e)
+{
+  //alert(e.target.id);
+  var id = e.target.id;
+  var imgSrc = "url(../images/testImg_dashbord.PNG)";
+
+  if (id == 6)
+    imgSrc = "url(../images/testImg_deliveryOptions.PNG)";
+
+  if (id == 9)
+    imgSrc = "url(../images/testImg_editTemplate.PNG)";
+
+  console.log(imgSrc);
+  document.getElementById("displayImageId").style.backgroundImage = imgSrc; 
+});
